@@ -32,7 +32,7 @@ client.on("ready", () => {
 
 client.on("guildMemberAdd", member => {
 
-    const logs = member.guild.channels.find(m => m.id === "568450523028652062");
+    const logs = member.guild.channels.find(m => m.id === "561883549096214539");
     if (!logs) return;
 
     logs.send({
@@ -64,7 +64,7 @@ client.on("guildMemberAdd", member => {
 
 client.on("guildMemberRemove", member => {
 
-    const logs = member.guild.channels.find(m => m.id === "568450523028652062");
+    const logs = member.guild.channels.find(m => m.id === "561883549096214539");
     if (!logs) return;
 	
     logs.send({embed: {
